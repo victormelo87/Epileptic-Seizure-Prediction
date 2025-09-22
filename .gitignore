@@ -1,0 +1,21 @@
+# Ambiente virtual
+.venv/
+venv/
+.env/
+
+# Arquivos do sistema
+.DS_Store
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados locais (se tiver)
+data/
+*.edf
+*.npz
+*.npy
+
+# Credenciais (NÃO subir)
+credentials/
+*.json
